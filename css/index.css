@@ -183,3 +183,90 @@ body {
   margin: 2em auto;
 }
 
+
+/* === mobile === */
+@media screen and (max-width: 500px) {
+  .body {
+    max-width: 100vw;
+  }
+
+  .principal {
+    width: 100vw;
+    
+    background-size: 100%;
+
+    justify-content: flex-end;
+  }
+
+  .principal__caixa {
+    padding: 0;
+  }
+
+  .principal__img {
+    width: 50vw;
+  }
+
+  .principal__titulo {
+    font-size: 14px;
+  }
+
+  .principal__aviso {
+    font-size: 1em;
+  }
+
+  .principal__botao {
+    padding: .5em;
+  }
+
+  .container {
+    width: 100vw;
+    max-width: 500px;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+  }
+
+  .secundario {
+    padding: 0;
+
+    height: 70vh;
+  }
+
+  .secundario__img {
+    width: 50vw;
+    padding: 0;
+  }
+
+  .secundario__descricao {
+    width: 100vw;
+  }
+
+  .descricao__titulo {
+    font-size: 2em;
+  }
+
+  .descricao__paragrafo {
+    font-size: 1em;
+  }
+
+  .dispositivos {
+    width: 100vw;
+  }
+
+  .dispositivos__titulo {
+    font-size: 2em;
+  }
+
+  .dispositivos__lista {
+    flex-direction: column;
+  }
+
+  .dispositivos__lista li{
+    font-size: 1em;
+  }
+}
+
